@@ -1,0 +1,63 @@
+
+	/* Heading */
+	h1 {
+		color: rgb(251, 255, 10);
+		font-family: 'Consolas';
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 80px;
+		margin-bottom: -10px;
+		margin-right: 4px;
+		border: 2px solid rgb(175, 175, 175);
+		background-color: rgb(99, 99, 99);
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+		font-family: 'Consolas';
+		color: rgb(117, 255, 126);
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid rgb(129, 129, 129);
+		margin: auto;
+		border-radius: 4px;
+		font-family: 'Consolas';
+
+		background-color: rgb(85, 85, 85);
+		color: rgb(216, 205, 55);
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: 'Consolas';
+
+		color: rgb(111, 173, 165);
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+		
+	}
+
+	body{background-color: rgb(37, 37, 37);}
+	/* Game Instruction Text */
+	#ins {
+		font-family: 'Consolas';
+			
+		color: rgb(58, 221, 226);
+		font-size: 17px;
+	}
+
